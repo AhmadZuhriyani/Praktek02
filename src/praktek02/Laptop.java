@@ -16,4 +16,10 @@ public class Laptop {
         System.out.println("Modal   :"  +Modal);
         System.out.println("======================");
     }
+    
+   Integer HitungLaba(){
+       Integer Laba;
+       Laba=Harga-Modal;
+       return Laba;
+   }
 }
