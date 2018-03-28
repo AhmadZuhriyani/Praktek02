@@ -6,8 +6,14 @@ public class Laptop {
     Integer Harga;
     Integer Stok;
     Integer Modal;
+
+    public Laptop() {
+        Merek    = "ASUS";
+        Harga    = 10000000;
+        Stok     = 10;
+        Modal    = 8000000;
+    }
     
-     
     void Penjualan(){
         System.out.println("======================");
         System.out.println("Merek   :"  +Merek);

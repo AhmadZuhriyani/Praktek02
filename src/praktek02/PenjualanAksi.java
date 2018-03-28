@@ -21,10 +21,10 @@ public class PenjualanAksi {
         R2.Modal    = 6000000;
             R2.Penjualan(); 
          
-        R1.Penjualan();
+        //R1.Penjualan();
         System.out.println("Laba jual ASUS   ="+R1.HitungLaba());
             R1.CetakLaba();
-        R2.Penjualan();
+        //R2.Penjualan();
         System.out.println("Laba jual ACER   ="+R2.HitungLaba());
             R2.CetakLaba();
     }
