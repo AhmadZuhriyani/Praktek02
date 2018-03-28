@@ -5,6 +5,7 @@ public class Laptop {
     String  Merek;
     Integer Harga;
     Integer Stok;
+    Integer Modal;
     
      
     void Penjualan(){
@@ -12,6 +13,7 @@ public class Laptop {
         System.out.println("Merek   :"  +Merek);
         System.out.println("Harga   :"  +Harga);
         System.out.println("Stok    :"  +Stok);
+        System.out.println("Modal   :"  +Modal);
         System.out.println("======================");
     }
 }
