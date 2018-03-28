@@ -21,7 +21,7 @@ public class PenjualanAksi {
         R2.Modal    = 6000000;
             R2.Penjualan(); 
          
-        R1.Penjualan(); 
+        R1.Penjualan();
         System.out.println("Laba jual    ="+R1.HitungLaba());
     }
 }
