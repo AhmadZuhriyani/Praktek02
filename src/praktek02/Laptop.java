@@ -22,4 +22,7 @@ public class Laptop {
        Laba=Harga-Modal;
        return Laba;
    }
+   void CetakLaba(){
+       System.out.println("Keuntungan sebanyak: "+HitungLaba());
+}
 }
