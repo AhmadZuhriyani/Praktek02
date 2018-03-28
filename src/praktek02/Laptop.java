@@ -8,11 +8,21 @@ public class Laptop {
     Integer Modal;
 
     public Laptop() {
-        Merek    = "ASUS";
-        Harga    = 10000000;
-        Stok     = 10;
-        Modal    = 8000000;
+        Merek    = "LENOVO";
+        Harga    = 11000000;
+        Stok     = 2;
+        Modal    = 7000000;
     }
+
+    public Laptop(String Merek, Integer Harga, Integer Stok, Integer Modal) {
+        this.Merek = Merek;
+        this.Harga = Harga;
+        this.Stok = Stok;
+        this.Modal = Modal;
+    }
+    
+    
+    
     
     void Penjualan(){
         System.out.println("======================");

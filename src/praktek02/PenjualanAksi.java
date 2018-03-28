@@ -27,5 +27,11 @@ public class PenjualanAksi {
         //R2.Penjualan();
         System.out.println("Laba jual ACER   ="+R2.HitungLaba());
             R2.CetakLaba();
+            
+            Laptop R3 = new Laptop();
+            R3.Penjualan();
+            
+            Laptop R4 = new Laptop("TOSHIBA",5000000,6,3500000);
+            R4.Penjualan();
     }
 }
